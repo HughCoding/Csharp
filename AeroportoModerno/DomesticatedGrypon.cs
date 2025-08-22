@@ -8,9 +8,10 @@ namespace Sandbox
 {
     public class DomesticatedGrypon : IFlyingTransport
     {
-        public void Fly(string origin, string destination, int passagers)
+        public void Fly(string origin, string destination, int passengers)
         {
-            Console.WriteLine($"DomesticatedGrypon flying from {origin} to {destination} with {passagers} passagers.");
+            Console.WriteLine($"DomesticatedGrypon flying from {origin} to {destination} with {passengers} passengers.");
         }
     }
 }
+
