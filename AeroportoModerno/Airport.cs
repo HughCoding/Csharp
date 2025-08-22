@@ -9,10 +9,11 @@ namespace Sandbox
 {
     public class Airport
     {
-        public void Accept(IFlyingTransport vehicle, string origin, string destination, int passagers) {
+        public void Accept(IFlyingTransport vehicle, string origin, string destination, int passengers) {
 
             vehicle.Fly(origin, destination, passengers);
         }
     }
 }
+
 
