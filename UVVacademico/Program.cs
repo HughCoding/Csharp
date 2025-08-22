@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-           
+            
+           Professor prof = new Professor();
+
+            P
+            
         }
     }
 }
+
