@@ -8,8 +8,9 @@ namespace Sandbox
 {
     public interface IFlyingTransport
     {
-        void Fly(string origin, string destination, int passagers);
+        void Fly(string origin, string destination, int passengers);
        
             
     }
 }
+
