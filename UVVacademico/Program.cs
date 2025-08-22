@@ -7,9 +7,11 @@
             
            Professor prof = new Professor();
 
-            P
+            ProfHorista ph1 = new ProfHorista(...)
+            ProfDE pde1 = new ProfessorDE("324234
             
         }
     }
 }
+
 
