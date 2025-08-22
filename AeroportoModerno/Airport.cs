@@ -11,7 +11,8 @@ namespace Sandbox
     {
         public void Accept(IFlyingTransport vehicle, string origin, string destination, int passagers) {
 
-            vehicle.Fly(origin, destination, passagers);
+            vehicle.Fly(origin, destination, passengers);
         }
     }
 }
+
